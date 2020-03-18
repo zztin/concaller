@@ -1,5 +1,7 @@
 BootStrap: debootstrap
-From: ubuntu:16.04
+OSVersion: xenial
+MirrorURL: http://us.archive.ubuntu.com/ubuntu/
+
 
 %runscript
     /root/TideHunter/bin/TideHunter ./test_data/test_1000x10.fa > cons.fa
