@@ -1,4 +1,4 @@
-BootStrap: deboostrap
+BootStrap: debootstrap
 From: ubuntu:16.04
 
 %runscript
